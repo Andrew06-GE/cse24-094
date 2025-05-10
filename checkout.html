@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | NIKE Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="navbar-menu">
+        <li class="navbar-item">
+            <a href="/" class="navbar-links">Home</a>
+        </li>
+        <li class="navbar-item">
+            <a href="Products.html" class="navbar-links">Products</a>
+        </li>
+        <li class="navbar-item">
+            <a href="Product-Details.html" class="navbar-links">Product-Details</a>
+        </li>
+        <li class="navbar-item">
+            <a href="Cart.html" class="navbar-links">Cart</a>
+        </li>
+        <li class="navbar-item">
+            <a href="Feedback.html" class="navbar-links">Feedback</a>
+        </li>
+
+        <li class="navbar-btn">
+            <a href="/"class="button"></button>Sign Up</a>          
+        </li>
+    </ul>
+</div>
+
+    <header>
+        
+    </header>
+
+    <main class="checkout-page">
+        <h1>Checkout</h1>
+        
+        <div class="checkout-grid">
+            <section class="shipping-form">
+                <h2>Shipping Information</h2>
+                <form id="shippingForm">
+                    <!-- Form fields -->
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Shipping Address" required></textarea>
+                </form>
+            </section>
+
+            <section class="order-summary">
+                <h2>Your Order</h2>
+                <div id="checkout-items">
+                    <!-- Cart items loaded by cart.js -->
+                </div>
+                <div class="payment-methods">
+                    <h3>Payment Method</h3>
+                    <select id="payment-method">
+                        <option>Credit Card</option>
+                        <option>PayPal</option>
+                    </select>
+                </div>
+                <button type="submit" form="shippingForm" class="btn">Place Order</button>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="JScript.js"></script>
+</body>
+</html>
