@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Nike Shoes Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JScript.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" id="navbar-logo">Nike Store</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="index.html" class="navbar-links">Home</a></li>
+                <li class="navbar-item"><a href="products.html" class="navbar-links">Products</a></li>
+                <li class="navbar-item"><a href="product-details.html" class="navbar-links">Product-Details</a></li>
+                <li class="navbar-item"><a href="cart.html" class="navbar-links">Cart</a></li>
+                <li class="navbar-item"><a href="checkout.html" class="navbar-links">Checkout</a></li>
+                <li class="navbar-item"><a href="feedback.html" class="navbar-links">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="feedback-form">
+            <h2>Contact Us</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nike Shoes Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

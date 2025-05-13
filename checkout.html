@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout| Nike Shoes Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="JScript.js" defer></script>
+ </head>   
+ <body>
+     <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" id="navbar-logo">Nike Store</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="index.html" class="navbar-links">Home</a></li>
+                <li class="navbar-item"><a href="products.html" class="navbar-links">Products</a></li>
+                <li class="navbar-item"><a href="product-details.html" class="navbar-links">Product-Details</a></li>
+                <li class="navbar-item"><a href="cart.html" class="navbar-links">Cart</a></li>
+                <li class="navbar-item"><a href="checkout.html" class="navbar-links">Checkout</a></li>
+                <li class="navbar-item"><a href="feedback.html" class="navbar-links">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+  <main class="checkout-page">
+    <h1>Checkout</h1>
+
+    <div class="checkout-grid">
+      <section class="shipping-form">
+        <h2>Shipping Information</h2>
+        <form id="shippingForm">
+          <input type="text" name="fullName" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="address" placeholder="Shipping Address" required></textarea>
+          
+          <div class="payment-methods">
+            <h3>Payment Method</h3>
+            <select id="payment-method" name="paymentMethod">
+              <option value="Credit Card">Credit Card</option>
+              <option value="PayPal">PayPal</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Place Order</button>
+        </form>
+      </section>
+        </div>
+        
+        <footer>
+          <p>&copy; 2025 NIKE Shoe Store. All rights reserved</p>    
+  </footer>
+      </section>
+    </div>
+  </main>
+
+ </body>
+</html>
