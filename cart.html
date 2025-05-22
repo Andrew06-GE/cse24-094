@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart | Nike Shoes Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="JScript.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" id="navbar-logo">Nike Store</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="index.html" class="navbar-links">Home</a></li>
+                <li class="navbar-item"><a href="products.html" class="navbar-links">Products</a></li>
+                <li class="navbar-item"><a href="product-details.html" class="navbar-links">Product-Details</a></li>
+                <li class="navbar-item"><a href="cart.html" class="navbar-links">Cart</a></li>
+                <li class="navbar-item"><a href="checkout.html" class="navbar-links">Checkout</a></li>
+                <li class="navbar-item"><a href="feedback.html" class="navbar-links">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="cart-page">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be loaded here by JavaScript -->
+        </div>
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span id="subtotal">$0.00</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping:</span>
+                <span id="shipping">$10.00</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total:</span>
+                <span id="total">$0.00</span>
+            </div>
+            <a href="checkout.html" class="btn checkout-btn">Proceed to Checkout</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nike Shoes Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
